@@ -1,13 +1,12 @@
-import React from 'react'
-import Home from './Components/Home'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import TransactionList from './components/TransactionList';
 
-const App = () => {
-    return (
-        <div>
-            <Home/>
-        </div>
-    )
+function App() {
+  return (
+    <TransactionList />
+  );
 }
 
-export default App
-
+export default App;
